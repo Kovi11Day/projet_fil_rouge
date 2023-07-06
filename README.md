@@ -1,5 +1,14 @@
 # Chiller Efficiency Drift Detection
 # 1. Installations
+- Install all packages mentionned in the requirements.txt file
+- For installing affiliation metrics package, follow the instructions below:
+    - download package from: https://github.com/ahstat/affiliation-metrics-py
+    - go to affiliation directory (**cd**)
+    - execute command:
+      
+            > pip install .
+    - relaunch notebook kernel if necessary
+ 
 # 2. Data Directory
 - Note: Data directory should be placed at the same level as folder containing all notebooks (NOT at the same level as notebooks!)
 **- efficiency_error_dataset/:** dataset containing calculated efficiency, predicted efficiency and efficiency prediction error
